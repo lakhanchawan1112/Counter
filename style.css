@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#head {
+    width: 80%;
+    margin: 50px 10% 10px 33%;
+}
+
+#container {
+    width: 80%;
+    background-color: bisque;
+    margin: 0px 10% 50px 10%;
+    padding: 40px 0 50px 0;
+}
+
+#input-box {
+    display: flex;
+    justify-content: center;
+}
+
+div input {
+    /* border: 2px solid blue; */
+    border-radius: 10px 0 0 10px;
+    
+    width: 35%;
+    height: 50px;
+    font-size: 24px;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
+#reset {
+    width: 5%;
+    height: 53.5px;
+    position: relative;
+    right: 2px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#incriment {
+    width: 40%;
+    height: 50px;
+    border: 2px solid rgb(9, 153, 67);
+    border-radius: 10px;
+    background-color: rgb(9, 153, 67);
+    font-size: 24px;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+#decriment {
+    width: 40%;
+    height: 50px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: grey;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+}
